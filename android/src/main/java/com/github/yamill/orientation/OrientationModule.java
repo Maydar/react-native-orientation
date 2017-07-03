@@ -171,6 +171,6 @@ public class OrientationModule extends ReactContextBaseJavaModule implements Lif
             activity.unregisterReceiver(receiver);
         }
         catch (java.lang.IllegalArgumentException e) {
-            FLog.e(ReactConstants.TAG, "receiver already unregistered", e);
+            //FLog.e(ReactConstants.TAG, "receiver already unregistered", e);
         }}
     }
